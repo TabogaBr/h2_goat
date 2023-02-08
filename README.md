@@ -459,7 +459,7 @@ Full query:
 SELECT * FROM user_data WHERE last_name = 'Brenda';SELECT * FROM user_data INNER JOIN user_system_data ON cookie = cookie WHERE '1' = '1'
 ```
 
-For this query, I first triec to use the UNION statement, but it did not because the number of columns in the first query was different from the number of columns in the second query. So I had to do another query to get the data from both tables.
+For this query, I first tried to use the UNION statement, but it did not because the number of columns in the first query was different from the number of columns in the second query. So I had to do another query to get the data from both tables.
 
 b) What is Dave's password?
 
